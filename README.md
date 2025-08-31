@@ -8,7 +8,7 @@ A sleek 3D product page built with Flutter. Spin and zoom a GLB model, switch be
 - Static ring/ellipse under the model + soft blue glow for depth
 - Short NFT callout text + minimal two-item gallery (ASTRO | HELMET)
 - Custom app bar (335×44) with 44×44 icon buttons, dark theme
-  
+
 ## Quick start
 
 1) pubspec.yaml
@@ -59,5 +59,9 @@ AR works only on real devices (Android needs Google Play Services for AR)
 If you see net::ERR_CLEARTEXT_NOT_PERMITTED on Android: ensure android:usesCleartextTraffic="true" is set in <application>
 On web, make sure the model-viewer scripts are included. Asset paths must be correct (case-sensitive)
 For iOS AR, export USDZ versions of your models and set iosSrc in the ModelViewer widget.
+
+<img width="288" height="518" alt="Screenshot 2025-08-31 050956" src="https://github.com/user-attachments/assets/26121d60-29c5-444d-9b8f-9a566b18d9a1" />
+<img width="291" height="512" alt="Screenshot 2025-08-31 050938" src="https://github.com/user-attachments/assets/22dbb614-783c-4c14-8e71-54dce79c71de" />
+<img width="292" height="516" alt="Screenshot 2025-08-31 051012" src="https://github.com/user-attachments/assets/31638a59-df65-40f2-bfd6-9e19d68eeef2" />
 
 
